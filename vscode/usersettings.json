@@ -1,0 +1,14 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "files.associations": {
+    "*.css": "scss"
+  },
+  "window.zoomLevel": 0,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.panel.location": "right",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": true
+}

@@ -1,0 +1,99 @@
+{
+	"Import_React": {
+		"prefix": "ir",
+		"body": [
+			"import React from 'react'"
+		],
+		"description": "Import React"
+	},
+	"Import_React_Component": {
+		"prefix": "irc",
+		"body": [
+			"import React, { Component } from 'react'"
+		],
+		"description": "Import React and Components"
+	},
+	"Import_PropTypes": {
+		"prefix": "ip",
+		"body": [
+			"import PropTypes from 'prop-types'"
+		],
+		"description": "Import PropTypes"
+	},
+	"Import_Styles": {
+		"prefix": "is",
+		"body": [
+			"import s from './styles.css'"
+		],
+		"description": "Import PropTypes"
+	},
+	"Full_React": {
+		"prefix": "fr",
+		"body": [
+			"import React from 'react'",
+			"import PropTypes from 'prop-types'",
+			"\t",
+			"const ${1:ComponentName} = (",
+			"\t${2:body}",
+			")",
+			"\t",
+			"${1}.propTypes {",
+			"\t",
+			"}",
+			"\t",
+			"export default ${1}"
+		]
+	},
+	"Full_React_Class": {
+		"prefix": "frc",
+		"body": [
+			"import React, { Component } from 'react'",
+			"import PropTypes from 'prop-types'",
+			"\t",
+			"class ${1:ComponentName} extends Component {",
+				"\trender() {",
+					"\t\t${2:body}",
+				"\t}",
+			"}",
+			"\t",
+			"${1}.propTypes = {",
+			"\t",
+			"}",
+			"\t",
+			"export default ${1}"
+		]
+	},
+	"Console_Log": {
+		"prefix": "cl",
+		"body": [
+			"console.log(${1:f})"
+		]
+	},
+	"Console_Warn": {
+		"prefix": "cw",
+		"body": [
+			"console.warn(${1:f})"
+		]
+	},
+	"Console_Error": {
+		"prefix": "ce",
+		"body": [
+			"console.error(${1:f})"
+		]
+	},
+	"Redux": {
+		"prefix": "fred",
+		"body": [
+			"import { connect } from 'react-redux'",
+			"import ${1:ComponentName} from '../../components/${2:ComponentRoute}'",
+			"\t",
+			"const mapStateToProps = {",
+				"\t${3:body}",
+			"}",
+			"\t",
+			"const mapDispatchToProps = {}",
+			"\t",
+			"export default connect(mapStateToProps, mapDispatchToProps)(${1})"
+		]
+	}
+}
