@@ -87,11 +87,11 @@
 			"import { connect } from 'react-redux'",
 			"import ${1:ComponentName} from '../../components/${2:ComponentRoute}'",
 			"\t",
-			"const mapStateToProps = {",
+			"const mapStateToProps = (state, ownProps) => {",
 				"\t${3:body}",
 			"}",
 			"\t",
-			"const mapDispatchToProps = {}",
+			"const mapDispatchToProps = (dispatch, ownProps) => ({})",
 			"\t",
 			"export default connect(mapStateToProps, mapDispatchToProps)(${1})"
 		]
