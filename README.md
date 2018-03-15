@@ -5,6 +5,8 @@ A collection of tools, configs, settings, extensions, and products that I use.
 ## Visual Studio Code
 
 ### Snippets
+
+Add custom snippets `Code > Preferences > User Snippets` and select existing or select a language.
 - [How to create custom snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 - [Javascript Snippets](https://github.com/mildrenben/code-tools/blob/master/vscode/javascript.json) for basics, React and Redux 
 
