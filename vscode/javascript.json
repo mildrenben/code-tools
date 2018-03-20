@@ -33,7 +33,7 @@
 			"import React from 'react'",
 			"import PropTypes from 'prop-types'",
 			"\t",
-			"const ${1:ComponentName} = (",
+			"const ${1:ComponentName} = () => (",
 			"\t${2:body}",
 			")",
 			"\t",
