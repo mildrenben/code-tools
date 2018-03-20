@@ -66,19 +66,19 @@
 	"Console_Log": {
 		"prefix": "cl",
 		"body": [
-			"console.log(${1:f})"
+			"console.log('${1:var}', ${1})"
 		]
 	},
 	"Console_Warn": {
 		"prefix": "cw",
 		"body": [
-			"console.warn(${1:f})"
+			"console.warn('${1:var}', ${1})"
 		]
 	},
 	"Console_Error": {
 		"prefix": "ce",
 		"body": [
-			"console.error(${1:f})"
+			"console.error('${1:var}', ${1})"
 		]
 	},
 	"Redux": {
