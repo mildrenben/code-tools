@@ -27,6 +27,7 @@ Add custom snippets `Code > Preferences > User Snippets` and select existing or 
 ### Config
 
 - [User settings](https://github.com/mildrenben/code-tools/blob/master/vscode/usersettings.json)
+- [Keybindings](https://github.com/mildrenben/code-tools/blob/master/vscode/keybindings.json)
 
 ## ESLint
 
