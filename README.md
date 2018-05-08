@@ -12,7 +12,7 @@ Add custom snippets `Code > Preferences > User Snippets` and select existing or 
 
 ### Visual
 
-- Fonts – `"Menlo, Monaco, 'Courier New', monospace"`
+- [Fire Code font](https://github.com/tonsky/FiraCode)
 - [One Dark Pro Theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 

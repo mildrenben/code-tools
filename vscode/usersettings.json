@@ -10,5 +10,6 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.panel.location": "right",
   "emmet.triggerExpansionOnTab": true,
-  "editor.tabCompletion": true
+  "editor.tabCompletion": true,
+  "editor.fontFamily": "Fira Code"
 }
